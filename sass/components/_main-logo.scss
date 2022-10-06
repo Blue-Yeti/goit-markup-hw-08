@@ -11,7 +11,7 @@
         line-height: calc(28/24);
     }
 
-    @media screen and (max-width: 479px) {
+    @media screen and (max-width: 767px) {
         padding-top: 16px;
         padding-bottom: 16px;
     }
@@ -22,7 +22,13 @@
         }
     
     .logo--header{
-        margin-right: 93px;
+        @media screen and (min-width: 768px) {
+            margin-right: 87px !important;
+        }
+
+        @media screen and (min-width: 1600px) {
+            margin-right: 93px;
+        }
     }
     .logo--footer{
         color: var(--clr-white);
