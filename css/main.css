@@ -296,16 +296,12 @@ body {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin-left: 0px;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 1599px) {
   .newsletter {
-    -ms-flex-item-align: center;
-        align-self: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -315,9 +311,6 @@ body {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin-left: 0px;
     margin-top: 60px;
   }
@@ -1213,7 +1206,6 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
-    gap: 60px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1319,6 +1311,7 @@ body {
 @media screen and (max-width: 767px) {
   .main-footer__join-us {
     width: 340px;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 1600px) {

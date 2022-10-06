@@ -11,7 +11,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        gap: 60px;
     }
 
     @media screen and (min-width:768px){
@@ -87,6 +86,7 @@
 
     @media screen and (max-width:767px){
         width: 340px;
+        margin-top: 60px;
 
     }
 
