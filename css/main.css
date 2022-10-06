@@ -112,8 +112,14 @@
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1600px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 /* Box sizing rules */
@@ -629,6 +635,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
 }
 
@@ -653,7 +667,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 170px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 210px;
   height: 92px;
   border: 1px solid var(--icons-bg);
   border-radius: 4px;
@@ -664,6 +683,16 @@ body {
   outline: none;
   border: 1px solid var(--clr-accent);
 }
+@media screen and (min-width: 768px) {
+  .our-clients__link {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .our-clients__link {
+    width: 170px;
+  }
+}
 
 .our-clients__svg {
   fill: var(--icons-bg);
@@ -671,7 +700,6 @@ body {
   transition: fill 250ms var(--transition-cubic-bezier);
 }
 .our-clients__link:hover .our-clients__svg, .our-clients__link:focus .our-clients__svg {
-  outline: none;
   fill: var(--clr-accent);
 }
 
@@ -681,28 +709,33 @@ body {
 
 .our-team__header {
   font-weight: 700;
-  font-size: var(--fs-700);
+  font-size: 28px;
   text-align: center;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--clr-primary);
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1600px) {
+  .our-team__header {
+    font-size: 36px;
+  }
 }
 
 .our-team__employees {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
 
 .our-team__employee-card {
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--clr-white);
-  width: 270px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -718,6 +751,20 @@ body {
           flex-direction: column;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.our-team__employee-img {
+  width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .our-team__employee-img {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .our-team__employee-img {
+    width: 270px;
+  }
 }
 
 .our-team__employee-card-title {
@@ -853,7 +900,13 @@ body {
 }
 
 .what-we-do {
+  display: none;
   background-color: var(--bg-white);
+}
+@media screen and (min-width: 1600px) {
+  .what-we-do {
+    display: block;
+  }
 }
 
 .what-we-do__header {
@@ -906,20 +959,39 @@ body {
 
 .our-advantages {
   background-color: var(--bg-white);
-  padding-bottom: 0;
+}
+@media screen and (min-width: 1600px) {
+  .our-advantages {
+    padding-bottom: 0;
+  }
 }
 
 .our-advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.our-advantages__card {
-  width: 270px;
+@media screen and (max-width: 767px) {
+  .our-advantages__card {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-advantages__card {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-advantages__card {
+    width: 270px;
+  }
 }
 
 .our-advantages__svg-container {

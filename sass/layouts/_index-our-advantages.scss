@@ -1,16 +1,33 @@
 
 .our-advantages{
     background-color: var(--bg-white);
-    padding-bottom: 0;
+
+    @media screen and (min-width: 1600px) {
+        padding-bottom: 0;
+        
+    }
 }
 
 .our-advantages__list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .our-advantages__card{
-    width: 270px;
+    // 450 354 270
+    @media screen and (max-width: 767px){
+        width: 450px;
+    }
+
+    @media screen and (min-width: 768px){
+        width: 354px;
+    }
+
+    @media screen and (min-width: 768px){
+        width: 270px;
+    }
 }
 
 .our-advantages__svg-container{
