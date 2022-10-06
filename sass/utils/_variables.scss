@@ -1,0 +1,30 @@
+:root{
+    --clr-primary:#212121;
+    --clr-secondary:rgba(255, 255, 255, 0.6);
+    --clr-paragraph-primary:#757575;
+    --clr-heading-primary:#212121;
+    --clr-accent:#2196F3;
+    --clr-border:#ECECEC;
+    --clr-white:#FFFFFF;
+    --clr-black:#000000;
+    --bg-color-primary:#2F303A;
+    --bg-white:#FFFFFF;
+    --btn-bg:#F5F4FA;
+    --clr-gallery-li-border: #EEEEEE;
+    
+    --icons-bg: #AFB1B8;
+    
+    --transition-cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    /* main nav and some text*/
+    --fs-300: 0.875rem;
+    /* text */
+    --fs-400: 16px;
+    --fs-500: 1.125rem;
+    --fs-600: 1.625rem;
+    --fs-700: 2.25rem;
+    --fs-900: 3.75rem;
+  
+    --ff-logo: 'Raleway', sans-serif ;
+}

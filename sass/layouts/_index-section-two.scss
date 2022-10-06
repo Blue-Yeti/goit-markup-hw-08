@@ -1,0 +1,40 @@
+
+.section-two{
+    background-color: var(--bg-white);
+    padding-bottom: 0;
+}
+
+.section-two__cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-two__card{
+    width: 270px;
+}
+
+.section-two__svg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-bg);
+    height: 120px;
+    margin-bottom: 30px;
+
+}
+
+.section-two__header{
+    font-weight: 700;
+    font-size: var(--fs-300);
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--clr-primary);
+    margin-bottom: 10px;
+}
+.section-two__p{
+    font-size: var(--fs-300);
+    color: var(--clr-paragraph-primary);
+    line-height: 1.71;
+
+}

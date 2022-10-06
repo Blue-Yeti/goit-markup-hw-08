@@ -1,0 +1,36 @@
+.section-one{
+    background-color: var(--bg-color-primary);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url('../images/hearo-img.jpg') ;
+    max-width: 1600px;
+    margin-inline: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section-one__header{
+    color: var(--clr-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section-one__btn{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--clr-accent);
+    color: var(--clr-white);
+    font-weight: 700;
+    font-size: var(--fs-400);
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}

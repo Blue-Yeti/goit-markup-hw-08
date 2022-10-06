@@ -1,0 +1,21 @@
+.logo{
+    font-family: var(--ff-logo);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+
+    &__span{
+        color: var(--clr-accent);
+        }
+    }
+    
+    .logo--header{
+        margin-right: 93px;
+    }
+    .logo--footer{
+        color: var(--clr-white);
+        margin-bottom: 20px;
+    }
+    

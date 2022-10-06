@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="| container flex">
+        <nav class="main-nav">
+          <ul class="nav-list | flex">
+            <li class="nav-list__li">
+              <a class="logo logo--header | link" href="./index.html"><span class="logo__span">Web</span>Studio</a>
+            </li>
+            <li class="nav-list__li"><a class="nav-list__link | link is-active" href="./index.html">Studio</a></li>
+            <li class="nav-list__li"><a class="nav-list__link | link" href="./portfolio.html">Portfolio</a></li>
+            <li class="nav-list__li"><a class="nav-list__link | link" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts | flex">
+          <li class="contacts__li">
+            <a class="contacts__link | flex link" href="mailto:info@example.com">
+              <svg class="svg-small" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@example.com</a
+            >
+          </li>
+          <li class="contacts__li">
+            <a class="contacts__link | flex link" href="tel:+12127724150">
+              <svg class="svg-small" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +1 212-772-4150</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section-one section">
+        <div class="| container flex-column">
+          <h1 class="section-one__header">EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS</h1>
+          <button class="section-one__btn" type="button" data-modal-open>Request our service</button>
+        </div>
+      </section>
+      <section class="section-two | section">
+        <div class="| container">
+          <h2 class="section-two__main-header | hidden">promotional text about the company</h2>
+          <ul class="section-two__cards">
+            <li class="section-two__card">
+              <div class="section-two__svg-container">
+                <svg class="section-two__svg" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="section-two__header">ATTENTION TO DETAILS</h3>
+              <p class="section-two__p">We go into all the details and processes of your business to develop a customized solution.</p>
+            </li>
+            <li class="section-two__card">
+              <div class="section-two__svg-container">
+                <svg class="section-two__svg" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="section-two__header">PUNCTUALITY</h3>
+              <p class="section-two__p">With us, you can feel safe and secure. An important principle of the company: respect your time and respect the agreed deadlines.</p>
+            </li>
+            <li class="section-two__card">
+              <div class="section-two__svg-container">
+                <svg class="section-two__svg" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="section-two__header">PLANNING</h3>
+              <p class="section-two__p">You will be able to observe and participate in every phase of solution development and implementation.</p>
+            </li>
+            <li class="section-two__card">
+              <div class="section-two__svg-container">
+                <svg class="section-two__svg" width="70px" height="70px">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="section-two__header">MODERN TECHNOLOGIES</h3>
+              <p class="section-two__p">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-three | section">
+        <div class="| container">
+          <h2 class="section-three__header">What we do</h2>
+          <ul class="section-three__cards">
+            <li class="section-three__card">
+              <img src="./images/img1.jpg" alt="office showcase picture #1" width="370" />
+              <p class="section-three__card-overlay">DESKTOP APPS</p>
+            </li>
+            <li class="section-three__card">
+              <img src="./images/img2.jpg" alt="office showcase picture #2" width="370" />
+              <p class="section-three__card-overlay">Mobile APPS</p>
+            </li>
+            <li class="section-three__card">
+              <img src="./images/img3.jpg" alt="office showcase picture #3" width="370" />
+              <p class="section-three__card-overlay">DESIGN SOLUTIONS</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-four | section">
+        <div class="| container">
+          <h2 class="section-four__header">Our Team</h2>
+          <ul class="section-four__cards">
+            <li class="section-four__card">
+              <img src="./images/profile-img1.jpg" alt="Christopher Walker" width="270" />
+              <div class="section-four__card-wrapper">
+                <h3 class="section-four__card-header">Christopher Walker</h3>
+                <p class="section-four__card-text">Product Designer</p>
+                <ul class="section-four__svg-container">
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="section-four__card">
+              <img src="./images/profile-img2.jpg" alt="Kylie Evans" width="270" />
+              <div class="section-four__card-wrapper">
+                <h3 class="section-four__card-header">Kylie Evans</h3>
+                <p class="section-four__card-text">Frontend Developer</p>
+                <ul class="section-four__svg-container">
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="section-four__card">
+              <img src="./images/profile-img3.jpg" alt="Ryan Harris" width="270" />
+              <div class="section-four__card-wrapper">
+                <h3 class="section-four__card-header">Ryan Harris</h3>
+                <p class="section-four__card-text">Marketing</p>
+                <ul class="section-four__svg-container">
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="section-four__card">
+              <img src="./images/profile-img4.jpg" alt="Tyler Moore" width="270" />
+              <div class="section-four__card-wrapper">
+                <h3 class="section-four__card-header">Tyler Moore</h3>
+                <p class="section-four__card-text">UI Designer</p>
+                <ul class="section-four__svg-container">
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="section-four__icon-wrapper" href="#">
+                      <svg class="section-four__svg" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="our-clients | section">
+        <div class="| container">
+          <h2 class="our-clients__title">Regular Customers</h2>
+          <ul class="our-clients__svg-wrapper">
+            <li>
+              <a class="our-clients__link" href="#"
+                ><svg class="our-clients__svg" width="106px" height="60px"><use href="./images/icons.svg#icon-Logo"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="our-clients__link" href="#"
+                ><svg class="our-clients__svg" width="106px" height="60px"><use href="./images/icons.svg#icon-Logo1"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="our-clients__link" href="#"
+                ><svg class="our-clients__svg" width="106px" height="60px"><use href="./images/icons.svg#icon-Logo2"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="our-clients__link" href="#"
+                ><svg class="our-clients__svg" width="106px" height="60px"><use href="./images/icons.svg#icon-Logo3"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="our-clients__link" href="#"
+                ><svg class="our-clients__svg" width="106px" height="60px"><use href="./images/icons.svg#icon-Logo4"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="our-clients__link" href="#"
+                ><svg class="our-clients__svg" width="106px" height="60px"><use href="./images/icons.svg#icon-Logo5"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="baseline container flex">
+        <div>
+          <a class="logo logo--footer link" href="./index.html"><span class="logo__span">Web</span>Studio</a>
+          <address class="main-footer__address">
+            <p>
+              <a
+                class="main-footer__p-link"
+                href="https://www.google.com/maps/place/695+Park+Ave,+New+York,+NY+10065,+USA/@40.7689034,-73.9672143,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!8m2!3d40.7688994!4d-73.9650256"
+              >
+                695 Park Ave, New York, NY 10065 United States</a
+              >
+            </p>
+            <ul class="">
+              <li class="main-footer__link"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+              <li class="main-footer__link"><a class="link" href="tel:+12127724150">+1 212-772-4150</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="main-footer__join-us">
+          <p class="main-footer__join-us-txt">Find us on</p>
+          <ul class="main-footer__svg-container">
+            <li>
+              <a class="main-footer__icon-wrapper" href="#">
+                <svg class="main-footer__svg" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="main-footer__icon-wrapper" href="#">
+                <svg class="main-footer__svg" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="main-footer__icon-wrapper" href="#">
+                <svg class="main-footer__svg" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="main-footer__icon-wrapper" href="#">
+                <svg class="main-footer__svg" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="newsletter">
+          <label>
+            <p>Subscribe to the newsletter</p>
+            <div class="| flex">
+              <input class="newsletter__text-field" type="text" name="newsletter_sub" placeholder="E-mail" />
+              <button class="newsletter__btn-suscribe">Підписатися</button>
+            </div>
+          </label>
+        </form>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <form class="modal-window__form">
+          <p class="modal-window__text">Leave your information and we'll call you back</p>
+          <label class="modal-window__label">
+            <p class="modal-window__label-p">Name</p>
+            <div class="modal-window__input-wrapper">
+              <input class="modal-window__input" type="text" name="name" autocomplete="off" />
+              <svg class="modal-window__svg" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-window__label">
+            <p class="modal-window__label-p">Telephone</p>
+            <div class="modal-window__input-wrapper">
+              <input class="modal-window__input" type="tel" name="tel-num" autocomplete="off" />
+              <svg class="modal-window__svg" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-window__label">
+            <p class="modal-window__label-p">E-mail</p>
+            <div class="modal-window__input-wrapper">
+              <input class="modal-window__input" type="email" name="email" autocomplete="off" />
+              <svg class="modal-window__svg" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-window__label">
+            <p class="modal-window__label-p">Comments</p>
+            <textarea class="modal-window__textarea" name="modal-textaria" rows="10" placeholder="Enter the text"></textarea>
+          </label>
+
+          <label class="modal-window__checkbox-label">
+            <input class="modal-window__accept-checkbox | visually-hidden" type="checkbox" name="" required />
+            <span class="modal-window__accept-span"> I agree with the newsletter and accept the <a class="modal-window__terms" href="#">Terms </a></span>
+          </label>
+
+          <button class="modal-window__submit-btn" type="submit">Send</button>
+        </form>
+        <button class="modal-window__close-btn" data-modal-close>
+          <svg class="modal-window__close-svg" width="11px" height="11px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
