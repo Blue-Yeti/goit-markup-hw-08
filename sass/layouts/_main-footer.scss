@@ -22,6 +22,10 @@
         gap: 10px;
 
     }
+    @media screen and (min-width:768px){
+        flex-direction: row;        
+        flex-wrap: nowrap;
+    }
  }
 
  .main-footer__inner-wrapper{

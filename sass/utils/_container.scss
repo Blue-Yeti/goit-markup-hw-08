@@ -1,5 +1,4 @@
 .container{
-    width: 1200px;
     padding-left: 15px ;
     padding-right: 15px;
     margin-inline: auto;
@@ -13,4 +12,10 @@
         max-width: 768px;
         width: 100%;
     }
+
+    @media screen and (min-width: 1200px) {
+
+        width: 1200px;
+    }
+
 }

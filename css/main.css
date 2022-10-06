@@ -78,7 +78,6 @@
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-inline: auto;
@@ -93,6 +92,11 @@
   .container {
     max-width: 768px;
     width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
 }
 
@@ -274,6 +278,7 @@ body {
   text-transform: uppercase;
   color: var(--clr-white);
   margin-left: 93px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,7 +361,19 @@ body {
             justify-content: center;
     gap: 20px;
     text-align: center;
+    width: 100%;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .newsletter__lable-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -379,6 +396,25 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 20px;
+  }
+}
+@media screen and (max-width: 1599px) {
+  .newsletter__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1599px) {
@@ -461,7 +497,8 @@ body {
 }
 @media screen and (max-width: 1599px) {
   .newsletter__text-field {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
   }
 }
 
@@ -486,7 +523,6 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   padding: 10px 28px;
-  margin-left: 12px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -509,6 +545,11 @@ body {
 }
 .newsletter__btn-suscribe:active, .newsletter__btn-suscribe:focus {
   background-color: #188CE8;
+}
+@media screen and (min-width: 1600px) {
+  .newsletter__btn-suscribe {
+    margin-left: 12px;
+  }
 }
 
 .logo {
@@ -1196,6 +1237,16 @@ body {
         -ms-flex-align: baseline;
             align-items: baseline;
     gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-footer__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
