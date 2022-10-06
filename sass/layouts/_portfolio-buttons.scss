@@ -1,14 +1,14 @@
 
-.portfolio-section-one__main-header{
+.portfolio__main-header{
     text-align: center;
 }
 
-.portfolio-section-one__buttons{
+.portfolio__buttons{
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.portfolio-section-one__button-li{
+.portfolio__button-li{
     margin-right: 8px;
     
     &:last-child {
@@ -16,7 +16,7 @@
     }
 }
 
-.portfolio-section-one__button{
+.portfolio__button{
     background-color: var(--btn-bg);
     color: var(--clr-primary);
     font-family: 'Roboto';

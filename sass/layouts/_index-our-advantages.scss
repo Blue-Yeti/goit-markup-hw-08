@@ -1,19 +1,19 @@
 
-.section-two{
+.our-advantages{
     background-color: var(--bg-white);
     padding-bottom: 0;
 }
 
-.section-two__cards{
+.our-advantages__list{
     display: flex;
     justify-content: space-between;
 }
 
-.section-two__card{
+.our-advantages__card{
     width: 270px;
 }
 
-.section-two__svg-container{
+.our-advantages__svg-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
 
 }
 
-.section-two__header{
+.our-advantages__header{
     font-weight: 700;
     font-size: var(--fs-300);
     line-height: 1.2;
@@ -32,7 +32,7 @@
     color: var(--clr-primary);
     margin-bottom: 10px;
 }
-.section-two__p{
+.our-advantages__text{
     font-size: var(--fs-300);
     color: var(--clr-paragraph-primary);
     line-height: 1.71;

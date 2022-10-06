@@ -1,8 +1,8 @@
 
-.section-three{
+.what-we-do{
     background-color: var(--bg-white);
 }
-.section-three__header{
+.what-we-do__header{
     font-weight: 700;
     font-size: var(--fs-700);
     text-align: center;
@@ -13,17 +13,17 @@
     margin-bottom: 50px;
 
 }
-.section-three__cards{
+.what-we-do__list{
     display: flex;
     justify-content: space-between;
 }
 
-.section-three__card{
+.what-we-do__card{
     position: relative;
     z-index: 0;
 }
 
-.section-three__card-overlay{
+.what-we-do__card-overlay{
     display: flex;
     align-items: center;
     justify-content: center;

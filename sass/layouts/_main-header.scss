@@ -1,5 +1,7 @@
 .header{
+
     border-bottom: 1px solid var(--clr-border);
+
 }
 
 .svg-small{
@@ -14,11 +16,19 @@
     }
 }
 
+.main-nav{
+
+}
 .nav-list__li{
     margin-right: 50px;
     
     &:last-child{
     margin-right: 0;
+}
+@media screen and (max-width: 479px) {
+    &:not(:first-child){
+        display: none;
+    }
 }
 }
 
@@ -29,6 +39,11 @@
 
 .contacts{
     margin-left: auto;
+
+    @media screen and (max-width: 479px) {
+        display: none;
+    }
+
 }
 .contacts__li{
     margin-right: 50px;
@@ -39,4 +54,13 @@
 }
 .contacts__link{
     color: var(--clr-paragraph-primary);
+}
+
+.mobile-menu-svg{
+    margin-left: auto;
+    fill: var(--clr-heading-primary);
+
+    @media screen and (min-width: 479px) {
+        display: none;
+    }
 }

@@ -1,4 +1,4 @@
-.section-one{
+.section-hero{
     background-color: var(--bg-color-primary);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
     url('../images/hearo-img.jpg') ;
@@ -8,7 +8,7 @@
     padding-bottom: 200px;
 }
 
-.section-one__header{
+.section-hero__header{
     color: var(--clr-white);
     font-weight: 900;
     font-size: 44px;
@@ -18,7 +18,7 @@
     text-transform: uppercase;
 }
 
-.section-one__btn{
+.section-hero__btn{
     font-family: "Roboto", sans-serif;
     background-color: var(--clr-accent);
     color: var(--clr-white);
