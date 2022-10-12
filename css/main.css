@@ -78,10 +78,14 @@
 }
 
 .container {
-  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-inline: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -366,6 +370,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .newsletter__wrapper {
@@ -399,7 +404,6 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 20px;
-    width: 100%;
   }
 }
 @media screen and (max-width: 1599px) {
@@ -423,7 +427,11 @@ body {
 
 .newsletter p {
   margin-bottom: 20px;
-  width: 358px;
+}
+@media screen and (max-width: 480px) {
+  .newsletter p {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 767px) {
   .newsletter p {
@@ -442,7 +450,6 @@ body {
   color: var(--clr-border);
   padding-left: 16px;
   font-weight: normal;
-  width: 358px;
   -webkit-transition: outline-color 250ms var(--transition-cubic-bezier);
   transition: outline-color 250ms var(--transition-cubic-bezier);
 }
@@ -480,10 +487,14 @@ body {
   border-color: var(--clr-accent);
   outline: var(--clr-accent) thick;
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 479px) {
   .newsletter__text-field {
-    max-width: 450px;
-    width: 100%;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .newsletter__text-field {
+    width: 450px;
   }
 }
 
@@ -1000,6 +1011,7 @@ body {
 
 .section-hero {
   background-color: var(--bg-color-primary);
+  background-color: steelblue;
   max-width: 1600px;
   margin-inline: auto;
   padding-top: 200px;
@@ -1034,6 +1046,21 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+@media screen and (max-width: 767px) {
+  .section-hero__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 @media screen and (max-width: 1599px) {
   .section-hero__header {
@@ -1308,7 +1335,6 @@ body {
 }
 @media screen and (max-width: 767px) {
   .main-footer__join-us {
-    width: 340px;
     margin-top: 60px;
   }
 }

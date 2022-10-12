@@ -65,6 +65,7 @@
 
 .newsletter__wrapper{
     display: flex;
+    width: 100%;
     
     @media screen and (max-width:767px){
         display: flex;
@@ -79,7 +80,6 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 100%;
 
 }
 
@@ -96,12 +96,14 @@
 
 .newsletter p{
     margin-bottom: 20px;
-    width: 358px;
 
+    @media screen and (max-width:480px){
+        width: 100%;
+    
+    }
 @media screen and (max-width:767px){
     text-align: center;
     margin-bottom: 0;
-
 
 }
 
@@ -117,7 +119,6 @@
     color: var(--clr-border);
     padding-left: 16px;
     font-weight: normal;
-    width: 358px;
 
 
     transition: outline-color 250ms var(--transition-cubic-bezier);
@@ -137,10 +138,11 @@
         outline: var(--clr-accent) thick;
     }
 
-
-    @media screen and (max-width:1599px){
-        max-width: 450px;
-        width: 100%;
+    @media screen and (max-width:479px){
+        width: 90%;
+    }
+    @media screen and (min-width:480px){
+        width: 450px;
     }
 }
 
