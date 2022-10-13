@@ -3,8 +3,9 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 528px;
-    height: 582px;
+
+    width: 90%;
+    height: 100vh;
 
     padding: 40px;
 
@@ -12,6 +13,11 @@
 
     z-index: 0;
     background-color: #FFFFFF;
+
+    @media screen and (min-width: 768px) {
+        width: 528px;
+        height: 582px;
+    }
 
 }
 
