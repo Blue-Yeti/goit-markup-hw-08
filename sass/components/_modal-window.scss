@@ -14,6 +14,11 @@
     z-index: 0;
     background-color: #FFFFFF;
 
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        height: 609px;
+    }
+
     @media screen and (min-width: 768px) {
         width: 528px;
         height: 582px;
