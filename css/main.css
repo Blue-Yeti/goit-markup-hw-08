@@ -829,6 +829,12 @@ body {
           justify-content: center;
   gap: 30px;
 }
+@media screen and (max-width: 1599px) {
+  .our-clients__svg-wrapper {
+    max-width: 800px;
+    margin-inline: auto;
+  }
+}
 
 .our-clients__title {
   font-weight: 700;
@@ -913,6 +919,12 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+}
+@media screen and (max-width: 1599px) {
+  .our-team__employees {
+    max-width: 790px;
+    margin-inline: auto;
+  }
 }
 
 .our-team__employee-card {

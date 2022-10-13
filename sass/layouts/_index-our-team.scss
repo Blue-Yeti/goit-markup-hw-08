@@ -21,6 +21,11 @@
     flex-wrap: wrap;
     gap: 30px;
 
+    @media screen and (max-width: 1599px){
+        max-width: 790px;
+        margin-inline: auto;
+    }
+
 }
 
 .our-team__employee-card{
