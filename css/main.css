@@ -117,7 +117,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -310,7 +310,7 @@ body {
     margin-top: 0;
   }
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .newsletter {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -362,7 +362,7 @@ body {
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .newsletter__lable-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -400,7 +400,7 @@ body {
     gap: 20px;
   }
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .newsletter__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -418,7 +418,7 @@ body {
     gap: 20px;
   }
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .newsletter__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -509,6 +509,11 @@ body {
     width: 450px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .newsletter__text-field {
+    width: 358px;
+  }
+}
 
 .newsletter__btn-suscribe {
   position: relative;
@@ -554,7 +559,7 @@ body {
 .newsletter__btn-suscribe:active, .newsletter__btn-suscribe:focus {
   background-color: #188CE8;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .newsletter__btn-suscribe {
     margin-left: 12px;
   }
@@ -568,7 +573,7 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .logo {
     font-size: 24px;
     line-height: 1.1666666667;
@@ -590,7 +595,7 @@ body {
     margin-right: 87px !important;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .logo--header {
     margin-right: 93px;
   }
@@ -829,7 +834,7 @@ body {
           justify-content: center;
   gap: 30px;
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .our-clients__svg-wrapper {
     max-width: 800px;
     margin-inline: auto;
@@ -877,7 +882,7 @@ body {
     width: 226px;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .our-clients__link {
     width: 170px;
   }
@@ -905,7 +910,7 @@ body {
   color: var(--clr-primary);
   margin-bottom: 50px;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .our-team__header {
     font-size: 36px;
   }
@@ -920,7 +925,7 @@ body {
       flex-wrap: wrap;
   gap: 30px;
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .our-team__employees {
     max-width: 790px;
     margin-inline: auto;
@@ -956,7 +961,7 @@ body {
     width: 354px;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .our-team__employee-img {
     width: 270px;
   }
@@ -1063,13 +1068,13 @@ body {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg/hero_t@2x-min.jpg");
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .section-hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/bg/hero_d-min.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg/hero_d-min.jpg");
   }
 }
-@media screen and (min-width: 1600px) and (min-device-pixel-ratio: 2), screen and (min-width: 1600px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1600px) and (min-resolution: 192dpi), screen and (min-width: 1600px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .section-hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/bg/hero_d@2x-min.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg/hero_d@2x-min.jpg");
@@ -1100,7 +1105,7 @@ body {
             justify-content: center;
   }
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .section-hero__header {
     font-size: 26px;
     line-height: 1.62;
@@ -1128,7 +1133,7 @@ body {
   display: none;
   background-color: var(--bg-white);
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .what-we-do {
     display: block;
   }
@@ -1185,7 +1190,7 @@ body {
 .our-advantages {
   background-color: var(--bg-white);
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .our-advantages {
     padding-bottom: 0;
   }
@@ -1288,7 +1293,7 @@ body {
     gap: 10px;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .main-footer__wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1376,7 +1381,7 @@ body {
     margin-top: 60px;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .main-footer__join-us {
     margin-left: 70px;
   }
@@ -1455,7 +1460,7 @@ body {
   width: 14px;
   height: 10px;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .svg-small--envelope {
     width: 16px;
     height: 12px;
@@ -1466,7 +1471,7 @@ body {
   width: 10px;
   height: 14px;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .svg-small--phone {
     width: 10px;
     height: 16px;
@@ -1498,7 +1503,7 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .contacts {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1516,7 +1521,7 @@ body {
 .contacts__li:last-child {
   margin-right: 0;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .contacts__li {
     margin-right: 50px;
   }
@@ -1525,7 +1530,7 @@ body {
 .contacts__link {
   color: var(--clr-paragraph-primary);
 }
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .contacts__link {
     font-size: 12px;
   }

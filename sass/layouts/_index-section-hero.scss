@@ -34,7 +34,7 @@
       }
     }
 
-    @media screen and (min-width: 1600px) {
+    @media screen and (min-width: 1200px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
         url('../images/bg/hero_d-min.jpg') ;
 
@@ -63,7 +63,7 @@
         justify-content: center;
     }
 
-    @media screen and (max-width: 1599px) {
+    @media screen and (max-width: 1199px) {
         font-size: 26px;
         line-height: 1.62;
     }

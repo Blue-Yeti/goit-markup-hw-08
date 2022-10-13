@@ -10,7 +10,7 @@
     color: var(--clr-primary);
     margin-bottom: 50px;
 
-    @media screen and (min-width: 1600px){
+    @media screen and (min-width: 1200px){
         font-size: 36px;
     }
 
@@ -21,7 +21,7 @@
     flex-wrap: wrap;
     gap: 30px;
 
-    @media screen and (max-width: 1599px){
+    @media screen and (max-width: 1199px){
         max-width: 790px;
         margin-inline: auto;
     }
@@ -51,7 +51,7 @@
     @media screen and (min-width: 768px){
         width: 354px;
     }
-    @media screen and (min-width: 1600px){
+    @media screen and (min-width: 1200px){
         width: 270px;
     }
 }
